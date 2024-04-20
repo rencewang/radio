@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Radio | RENCELA</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -13,14 +13,19 @@
     </header>
 
     <main>
-      <section class="audio-list">
-        <h2>Featured Audio</h2>
-        <!-- Add audio elements here -->
+      <section id="audio-info"></section>
+
+      <section class="audio-player">
+        <audio controls id="audio"></audio>
       </section>
+
+      <section id="audio-list"></section>
     </main>
 
     <footer>
       <p>&copy; Radio Rence</p>
     </footer>
   </body>
+
+  <script src="script.js"></script>
 </html>
