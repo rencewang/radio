@@ -1,3 +1,31 @@
+:root {
+  --primary-color: #000;
+}
+
 .audio-list-item {
   width: fit-content;
+}
+
+#audio-list {
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-rows: minmax(0, auto);
+  gap: 0px;
+  padding: 0px;
+}
+
+/* Style for dot */
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  cursor: pointer;
+}
+
+/* Style for hover effect */
+.dot:hover {
+  background-color: var(--primary-color);
 }

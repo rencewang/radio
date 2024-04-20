@@ -25,16 +25,20 @@ fetch('metadata.json')
         const trackData = metadata[filePath];
 
         // Create list item
+        const dot = document.createElement('div');
+        dot.classList.add('dot');
+        dot.setAttribute('data-filepath', filePath);
+
         const trackTitle = document.createElement('h2');
         trackTitle.classList.add('audio-list-item');
         trackTitle.textContent = trackData.title;
 
         // Add click event listener to start playback
-        trackTitle.addEventListener('click', () => {
+        dot.addEventListener('click', () => {
           populateAudioInfoAndPlayer(filePath, trackData);
         });
 
-        audioList.appendChild(trackTitle);
+        audioList.appendChild(dot);
       }
     }
   })
