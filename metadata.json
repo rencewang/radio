@@ -1,17 +1,44 @@
 {
+  "/audio/4-30-2020.m4a": {
+    "title": "Cornelia Street",
+    "category": "Music",
+    "date": "04/30/2020",
+    "location": "Walnut, CA",
+    "description": ""
+  },
   "/audio/7-25-2022.m4a": {
     "title": "哪里是你的拥抱",
+    "category": "Narration",
     "date": "07/25/2022",
-    "location": "Westwood, CA"
+    "location": "Westwood, CA",
+    "description": ""
   },
   "/audio/8-15-2022.m4a": {
     "title": "一个人",
+    "category": "Narration",
     "date": "08/15/2022",
-    "location": "Westwood, CA"
+    "location": "Westwood, CA",
+    "description": ""
+  },
+  "/audio/12-10-2022.m4a": {
+    "title": "最好的时光",
+    "category": "Music",
+    "date": "12/10/2022",
+    "location": "Walnut, CA",
+    "description": ""
   },
   "/audio/12-23-2022.m4a": {
     "title": "寻人启事",
+    "category": "Music",
     "date": "12/23/2022",
-    "location": "Walnut, CA"
+    "location": "Walnut, CA",
+    "description": ""
+  },
+  "/audio/11-3-2023.m4a": {
+    "title": "Slut",
+    "category": "Vocals",
+    "date": "11/03/2023",
+    "location": "Walnut, CA",
+    "description": ""
   }
 }
