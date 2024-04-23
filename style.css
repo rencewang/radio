@@ -25,6 +25,7 @@ main {
 .track-title {
   font-size: 10rem;
   font-weight: 700;
+  letter-spacing: -10px;
 }
 
 .audio-list-item {
