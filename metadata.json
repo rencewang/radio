@@ -40,5 +40,19 @@
     "date": "11/03/2023",
     "location": "Walnut, CA",
     "description": ""
+  },
+  "/audio/4-24-2024.m4a": {
+    "title": "Guilty As Sin?",
+    "category": "Vocals",
+    "date": "04/24/2023",
+    "location": "San Francisco, CA",
+    "description": ""
+  },
+  "/audio/4-25-2024.m4a": {
+    "title": "The Black Dog",
+    "category": "Vocals",
+    "date": "04/25/2023",
+    "location": "San Francisco, CA",
+    "description": ""
   }
 }
